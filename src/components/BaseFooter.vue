@@ -24,7 +24,7 @@ footer {
   img {
     position: absolute;
     bottom: 20px;
-    height: 30px;
+    height: 20px;
   }
 }
 </style>
