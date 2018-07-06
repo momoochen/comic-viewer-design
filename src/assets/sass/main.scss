@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Kaushan Script', cursive;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+  font-size: 16px;
+  .title {
+    padding: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  button {
+    margin: 8px;
+    text-decoration: none;
+    color: #76f86c;
+    padding: 8px 32px;
+    border: none;
+    background: #211f41;
+    font-size: 18px;
+    font-family: 'Kaushan Script', cursive;
+    transition: 0.1s ease-in-out;
+    &:hover {
+      color: #615c99;
+    }
+  }
+}
